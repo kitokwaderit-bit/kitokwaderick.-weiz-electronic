@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+       <link rel="stylesheet" href="styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Inter", sans-serif;
+        }
+
+        body {
+            background: #0f3d1a;
+            color: #3f0303;
+            padding: 40px;
+        }
+
+        /* Fade-in + slide-up animation */
+        @keyframes fadeUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .container {
+            max-width: 850px;
+            margin: auto;
+            background: #70810c;
+            padding: 40px;
+            border-radius: 14px;
+            box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+            animation: fadeUp 0.8s ease-out;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+            color: #222;
+        }
+
+        p {
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+
+        .contact-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-top: 30px;
+            animation: fadeUp 1s ease-out;
+        }
+
+        @media (max-width: 700px) {
+            .contact-section {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Left side info box */
+        .info-box {
+            background: #46434b;
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid #2e0202;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        /* Hover lift animation */
+        .info-box:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+        }
+
+        .info-box h2 {
+            margin-bottom: 15px;
+            font-size: 1.4rem;
+            color: #444;
+        }
+
+        .info-item {
+            margin-bottom: 10px;
+        }
+
+        .info-item span {
+            font-weight: bold;
+        }
+
+        /* Right side form */
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        /* Smooth input focus animation */
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #360836;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            transition: 0.25s ease;
+        }
+
+        input:focus, textarea:focus {
+            border-color: #6a5acd;
+            box-shadow: 0 0 8px rgba(106, 90, 205, 0.25);
+            outline: none;
+            transform: scale(1.02);
+        }
+
+        textarea {
+            height: 130px;
+            resize: none;
+        }
+
+        /* Button animation */
+        button {
+            background: #6a5acd;
+            color: rgb(139, 238, 10);
+            border: none;
+            padding: 14px;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: transform 0.25s ease, background 0.25s ease;
+        }
+
+        button:hover {
+            background: #5848c2;
+            transform: scale(1.03);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Contact Me</h1>
+        <p>Have a question, collaboration idea, or just want to say hello?  
+        Fill out the form below or use one of my direct contacts.</p>
+
+        <div class="contact-section">
+            
+            <!-- Left Side Info -->
+            <div class="info-box">
+                <h2>Contact Details</h2>
+
+                <div class="info-item">
+                    <span>Email:</span> kitokwaderit@gmail.com
+                </div>
+
+                <div class="info-item">
+                    <span>Phone:</span>0783840805
+                </div>
+
+                <div class="info-item">
+                    <span>Location:</span> kampala, uganda
+                </div>
+
+                <div class="info-item">
+                    <span>Social:</span><br>
+                    <a href="#">LinkedIn</a> • 
+                    <a href="#">GitHub</a> •  
+                    <a href="#">Instagram</a>
+                </div>
+            </div>
+
+            <!-- Right Side Form -->
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+             <nav>
+    <ul>
+      <li><a href="c:\Users\1\Desktop\web works\index.html">Home</a></li>
+        <li><a href="c:\Users\1\Desktop\web works\about page.html">About Us</a></li>
+      <li><a href="c:\Users\1\Desktop\web works\services page..html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul> 
+    </nav>
+
+        </div>
+    </div>
+<section class="last-remarks">
+    <h3 style="color: aliceblue;">Thank you for contacting me</h3> 
+      <p style="color: aliceblue;"> My product range includes cameras, drones, camera lenses, bags, tripods, and shooting gimbals, catering to the diverse needs of our clients.</p>
+       <p style="color: aliceblue;">just trust me with your work and we will give you the best results.</p>
+</section>
+ <div>
+        <p style="color: rgb(189, 6, 143); text-align: center; font-style: oblique;">Kitokwa Derick</p>
+        <p style="color: rgb(248, 11, 189); text-align: center; font-style: oblique;">Manager</p>
+    </div>
+    <footer>
+        <p>&copy; 2025 Weiz Electronics Business. All rights reserved.</p>
+    </footer> 
+</body>
+</html>
