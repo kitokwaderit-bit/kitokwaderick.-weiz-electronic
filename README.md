@@ -1,0 +1,87 @@
+[index.html](https://github.com/user-attachments/files/23568391/index.html)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Tech Company</title>
+</head>
+
+  <nav>
+    <ul>
+      <li><a href="c:\Users\1\Desktop\web works\index.html">Home</a></li>
+        <li><a href="c:\Users\1\Desktop\web works\about page.html">About Us</a></li>
+      <li><a href="c:\Users\1\Desktop\web works\services page..html">Services</a></li>
+      <li><a href="c:\Users\1\Desktop\web works\contact.html">Contact</a></li>
+    </ul> 
+    </nav>
+    
+     <body>
+    
+        
+        <div class="opening-words-1">
+            <h2 style="color: rgb(137, 219, 5); font-size: xx-large;">Welcome to Weiz Electronics Business</h2>
+        <p style="font-size: xx-large;">Discover my latest pruducts and inputs.</p>
+        <p style="color: rgb(9, 24, 230); font-size: larger; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">A company owned by Kitokwa Derick</p>
+        <p style="color: rgb(12, 12, 11); font-size: larger;">25/BSE/BU/R/0018</p>
+    </div>
+    <!--Info area start-->
+    <div class="impression-words">
+      <H3 style="color: black; font-size: xx-large;">MY DEAR CLIENT YOU ARE MOST WELCOM TO OUR ONLINE CATALOGUE</H3>
+       
+     
+     <p style="color: blue; font-size: x-large;">MY Products</p>
+ <p style="color: white; font-size: x-large;">- Cameras: From mirrorless to DSLR cameras, we offer a variety of models from top brands to suit every need and budget.</p>
+<p style="color: white; font-size: x-large;">- Drones: Capture stunning aerial footage with our range of drones, perfect for photography, videography, and more.</p>
+<p style="color: white; font-size: x-large;">- Camera Lenses: Enhance your photography with our selection of high-quality lenses, including wide-angle, telephoto, and macro options.</p>
+<p style="color: white; font-size: x-large;">- Bags and Backpacks: Protect your gear and stay organized with our durable and stylish bags and backpacks.</p>
+<p style="color: white; font-size: x-large;">- Tripods and Supports: Stabilize your camera and capture smooth footage with our range of tripods, monopods, and gimbals.</p>
+<p style="color: white; font-size: x-large;">- Shooting Gimbals: Create smooth and stabilized footage with our handheld gimbals, perfect for cameras and smartphones</p>
+    <div>
+        <img src="c:\Users\1\Desktop\web works\fr.jpg" alt="c:\Users\1\Desktop\web works\fr.jpg">
+        <img src="c:\Users\1\Desktop\web works\h3.jpg" alt="c:\Users\1\Desktop\web works\h3.jpg">
+        <img src="c:\Users\1\Desktop\web works\122.jpg" alt="c:\Users\1\Desktop\web works\122.jpg">
+    </div>
+    </div>
+<section class="art">
+        <article>
+            <p class="title"> Aims</p>
+           <p style="font-size: xx-large;"> I am the best seervice providers in what we provide,</p>
+             <p >just trust me with your work and we will give you the best results.</p>
+        </article>
+    </section>
+    <section class="art">
+        <article>
+            <p class="title">Mission Statement</p>
+           <p>My mission is to provide value to customers by offering quality products, excellent service, and using technology to enhance the customer experience. <p>
+        </article>
+    </section>
+<section class="art">
+        <article>
+            <p class="title">Vision</p>
+          <p>inspirational, future-oriented (looking 5-10 years ahead), concise, and focused on the positive impact on customers or the world, not just on sales or profit.</p>
+        </article>
+    </section>
+<section class="art">
+            <article>
+                <p class="title">Goals</p>
+           <p> I am the best seervice providers in what we provide,</p>
+             <p>just trust us with your work and we will give you the best results.</p>
+        </article>
+    </section>
+<section class="last-remarks">
+    <h3>Thank you for contacting me</h3> 
+      <p> My product range includes cameras, drones, camera lenses, bags, tripods, and shooting gimbals, catering to the diverse needs of our clients.</p>
+       <p>just trust me with your work and we will give you the best results.</p>
+</section>
+ <div>
+        <p style="color: rgb(189, 6, 143); text-align: center; font-style: oblique;">Kitokwa Derick</p>
+        <p style="color: rgb(248, 11, 189); text-align: center; font-style: oblique;">Manager</p>
+    </div>
+    <footer>
+        <p>&copy; 2025 Weiz Electronics Business. All rights reserved.</p>
+    </footer> 
+</body>
+</html>
